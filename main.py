@@ -7,21 +7,6 @@ from utils import get_full_coordinates, get_member_cordinates_by_location, r, dr
 st.set_page_config(page_title="Redis Geospatial Application", page_icon="redis.png")
 st.write("**This application uses redis geospatial data structures.**")
 
-# @st.cache
-# def redis_connection(host: str, port_address):
-#     return Redis(host=host, port=port)
-#
-#
-# st.sidebar.subheader("Redis Connection")
-# host = st.sidebar.text_input("Host address")
-# port = st.sidebar.text_input("Port")
-#
-# if button := st.sidebar.button("Connect") and host != "" and port != "":
-#     r = redis_connection(host, port)
-#     st.info("Connected")
-#
-# st.info(r.keys())
-
 
 tab1, tab2, tab3 = st.tabs(["Create", "Circle Marker", "Distance"])
 
