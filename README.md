@@ -22,3 +22,9 @@
 **streamlit run .\main.py**
 
 
+You can reach the medium article on Redis geo commands and project details from the link below.
+https://medium.com/@TugrulGokce/redis-geospatial-app-with-geocoding-api-streamlit-and-folium-3937029b5420
+
+
+Application Demo
+https://www.youtube.com/watch?v=KQ6OIbNBjpE
